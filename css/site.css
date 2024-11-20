@@ -1,0 +1,18 @@
+html, body
+{
+    height: 100%;
+}
+
+.flex-container
+{
+    display: flex;
+    height: 100%;
+}
+
+.form-signin
+{
+    /* This will generally go for the max width until it's less than the min width and use that value */
+    min-width: 330px;
+    max-width: 20vw;
+    padding: 1rem;
+}
